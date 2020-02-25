@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 860px;
+    
+
+}
+@font-face{
+    font-family: PR;
+    src: url(../Fonts/Pacifico-Regular.ttf) format('truetype');
+}
+
+article{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+article > div > section {
+
+    
+    font-size: x-large;
+    font-family: PR;
+
+}
+
+
+article > div > footer {
+
+    font-size: 18px;
+    font-family: PR;
+}
